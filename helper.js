@@ -19,7 +19,7 @@ module.exports.protectRoute = async function (req, res, next) {
     }
   } else {
     return res.json({
-      msg: "opertion nots allowed",
+      msg: "opertion not allowed",
     });
   }
 };
